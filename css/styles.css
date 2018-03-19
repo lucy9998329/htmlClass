@@ -1,0 +1,74 @@
+html, body{
+    margin: 0;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+header {
+    border: 2px solid #222;
+    background-color: #444;
+
+}
+img {
+    width: 75px;
+    float: left; 
+    padding-right: 10px;
+      
+}
+nav > ul {
+    list-style-type: none;
+    border: 2px solid #222;
+    margin: 0;
+    height: 50px;
+    padding: 0px;
+    background-color: #f0a;
+
+}
+nav > ul > li {
+    float: left;
+    width: 25%;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+
+}
+nav > ul > li:hover {
+        background-color: #444;
+
+}
+.hexcolor, .rgbcolor {
+    display: block;
+    height: 200px;
+    width: 200px;
+    border: 2px solid #222;
+
+    float: left;
+}
+.hexcolor {
+    background-color: #AF0000;
+}
+.rgbcolor {
+    background-color: rgb(176, 0, 0);
+}
+.color1{
+    background-color: #AF0000
+}
+.color2 {
+    background-color: rgb(176, 0, 0);
+
+}
+.color3{
+    background-color: #77BB99;
+}
+.color4{
+    background-color: rgb(119, 187, 153);
+}.color5 {
+    background-color: #43A2B9;
+}
+.color6 {
+    background-color: rgb(67, 162, 185);
+}
+.color7{
+    background-color: #111111;
+}
+.color8{
+    background-color: rgb(17, 17, 17);
+}
